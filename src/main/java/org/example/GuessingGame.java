@@ -13,7 +13,7 @@ public class GuessingGame {
 
 //        if number = 7, print "Well done!"
 //        if number > 7, print "That's too low, try again!"
-//        otherwise print "That's too high, try again!"
+//        else print "That's too high, try again!"
 
         if (secretnumber == 7){
 

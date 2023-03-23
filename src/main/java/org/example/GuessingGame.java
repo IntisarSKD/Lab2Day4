@@ -12,7 +12,8 @@ public class GuessingGame {
         Integer secretnumber = Integer.valueOf(reader.nextLine()); // this reads the user input
 
 //        if number = 7, print "Well done!"
-//        otherwise print "Unfortunately, that's not the number I was thinking of :("
+//        if number > 7, print "That's too low, try again!"
+//        otherwise print "That's too high, try again!"
 
         if (secretnumber == 7){
 

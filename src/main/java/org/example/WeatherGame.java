@@ -15,7 +15,7 @@ public class WeatherGame {
 
             System.out.println("Wear a heavy coat and bring an umbrella.");
 
-        } else if (weather.equals("rainy") && temp >10 && temp <25){
+        } else if (weather.equals("rainy") && temp >10 && temp <=25){
 
             System.out.println("Wear a jacket and bring an umbrella.");
 
@@ -35,7 +35,7 @@ public class WeatherGame {
 
             System.out.println("Wear a heavy coat.");
 
-        } else if (weather.equals("cloudy") && temp >10 && temp <25){
+        } else if (weather.equals("cloudy") && temp >10 && temp <=25){
 
             System.out.println("Wear a jacket.");
 
@@ -47,7 +47,7 @@ public class WeatherGame {
 
             System.out.println("Wear a heavy coat. The sun might be out but it's not that hot yet!");
 
-        } else if (weather.equals("sunny") && temp >10 && temp <25){
+        } else if (weather.equals("sunny") && temp >10 && temp <=25){
 
             System.out.println("Wear light clothes and a light jacket.");
 
